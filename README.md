@@ -33,6 +33,6 @@ Contribuições são bem-vindas! Por favor, abra um pull request ou reporte issu
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto está licenciado sob a [Licença MIT](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/LICENCE).
 
 Para mais informações, visite [Ravi Monitor](https://ravimonitor.com).
