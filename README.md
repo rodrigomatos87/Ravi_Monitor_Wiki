@@ -1,4 +1,6 @@
-# <img src="https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/Logo.png" alt="Ravi Monitor Logo" width="60" height="60"> Ravi Monitor Wiki
+<img src="https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/Logo.png" alt="Ravi Monitor Logo" width="100" height="100">
+
+# Ravi Monitor Wiki
 
 Bem-vindo ao repositório de exemplos de scripts do sistema Ravi Monitor. Este repositório contém exemplos práticos de como utilizar a API para monitorar e gerenciar OLTs e muito mais!
 
