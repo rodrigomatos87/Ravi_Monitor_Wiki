@@ -5,12 +5,12 @@ Bem-vindo ao repositório de exemplos de scripts do sistema Ravi Monitor. Este r
 ## Estrutura do Repositório
 
 - **Scripts/**: Contém scripts de exemplo para diferentes operações com API para a Integração com OLTs.
-  - [`activation.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/Integra%C3%A7%C3%A3o%20com%20OLT/activation.php): Script para provisionar novas ONTs na rede.
-  - [`exclusion.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/Integra%C3%A7%C3%A3o%20com%20OLT/exclusion.php): Script para desprovisionar ou remover uma ONT.
-  - [`search_olt.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/Integra%C3%A7%C3%A3o%20com%20OLT/search_olt.php): Script para buscar dados de uma OLT e todas as ONTs provisionadas.
-  - [`search_ont.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/Integra%C3%A7%C3%A3o%20com%20OLT/search_ont.php): Script para buscar dados atualizados de uma ONT específica.
-  - [`search_position.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/Integra%C3%A7%C3%A3o%20com%20OLT/search_position.php): Script para retornar a próxima posição livre para um novo provisionamento de ONT.
-  - [`unprovisioned.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/Integra%C3%A7%C3%A3o%20com%20OLT/unprovisioned.php): Script para retornar a lista das ONTs pendentes de autorização para uma OLT.
+  - [`activation.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/OLT/activation.php): Script para provisionar novas ONTs na rede.
+  - [`exclusion.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/OLT/exclusion.php): Script para desprovisionar ou remover uma ONT.
+  - [`search_olt.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/OLT/search_olt.php): Script para buscar dados de uma OLT e todas as ONTs provisionadas.
+  - [`search_ont.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/OLT/search_ont.php): Script para buscar dados atualizados de uma ONT específica.
+  - [`search_position.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/OLT/search_position.php): Script para retornar a próxima posição livre para um novo provisionamento de ONT.
+  - [`unprovisioned.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/OLT/unprovisioned.php): Script para retornar a lista das ONTs pendentes de autorização para uma OLT.
 
 ## Como Utilizar
 
@@ -21,7 +21,7 @@ Bem-vindo ao repositório de exemplos de scripts do sistema Ravi Monitor. Este r
      ```
    - Navegue até o diretório de scripts:
      ```sh
-     cd Ravi_Monitor_Wiki/API/Integração\ com\ OLT
+     cd Ravi_Monitor_Wiki/API/OLT
      ```
 
 2. **Execução dos Scripts**:
