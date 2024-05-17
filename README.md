@@ -4,7 +4,7 @@ Bem-vindo ao repositório de exemplos de scripts do sistema Ravi Monitor. Este r
 
 ## Estrutura do Repositório
 
-- **Scripts/**: Contém scripts de exemplo para diferentes operações com API para a Integração com OLTs.
+- **/API/OLT/**: Contém scripts de exemplo para diferentes operações com API para a Integração com OLTs.
   - [`activation.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/OLT/activation.php): Script para provisionar novas ONTs na rede.
   - [`exclusion.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/OLT/exclusion.php): Script para desprovisionar ou remover uma ONT.
   - [`search_olt.php`](https://github.com/rodrigomatos87/Ravi_Monitor_Wiki/blob/main/API/OLT/search_olt.php): Script para buscar dados de uma OLT e todas as ONTs provisionadas.
