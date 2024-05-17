@@ -2,10 +2,10 @@
 
 $url = 'http://domain.com/webservice/olt.php';
 
-// Dados necessários que serão enviados para a exclusão de uma ONT
+// Dados necessários que serão enviados para a remoção de uma ONT
 $dados = [
     'key' => '2811c1e54a29f99941ac601d8dd169',  // Chave API, visualize essa informação em configolt.php na aba Configurações
-    'action' => 'exclusion',                    // Ação a ser executada para exclusão de ONT
+    'action' => 'exclusion',                    // Ação a ser executada para remoção da ONT
     'olt' => '1',                               // ID da OLT
     'slot' => '1',                              // Slot da OLT onde a ONT está conectada
     'pon' => '4',                               // PON da OLT onde a ONT está conectada

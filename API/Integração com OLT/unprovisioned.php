@@ -2,7 +2,7 @@
 
 $url = 'http://domain.com/webservice/olt.php';
 
-// Dados necessários que serão enviados para a busar por ONTs pendentes de autorização
+// Dados necessários que serão enviados para desprovisionar ou remover uma ONT
 $dados = [
     'key' => '2811c1e54a29f99941ac601d8dd169',  // Chave API, visualize essa informação em configolt.php na aba Configurações
     'action' => 'unprovisioned',                // Ação a ser executada para buscar por ONTs não provisionadas

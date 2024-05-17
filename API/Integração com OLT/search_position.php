@@ -2,7 +2,7 @@
 
 $url = 'http://domain.com/webservice/olt.php';
 
-// Dados necessários que serão enviados para a busar por ONTs pendentes de autorização
+// Dados necessários que serão enviados para a busar pela próxima posição disponível para ativação de uma nova ONT
 $dados = [
     'key' => '2811c1e54a29f99941ac601d8dd169',  // Chave API, visualize essa informação em configolt.php na aba Configurações
     'action' => 'search_position',              // Ação a ser executada para buscar a próxima posição disponível

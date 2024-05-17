@@ -2,7 +2,7 @@
 
 $url = 'http://domain.com/webservice/olt.php';
 
-// Dados necessários que serão enviados para a ativação de uma ONT
+// Dados necessários que serão enviados para a ativação de uma nova ONT
 $dados = [
     'key' => '2811c1e54a29f99941ac601d8dd169',  // Chave API, visualize essa informação em configolt.php na aba Configurações
     'action' => 'activation',                   // Ação a ser executada para ativação de ONT
