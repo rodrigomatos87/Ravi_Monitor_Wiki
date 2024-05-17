@@ -2,18 +2,14 @@
 
 $url = 'http://domain.com/webservice/olt.php';
 
-// Dados necessários que serão enviados para a ativação de uma ONT
+// Dados necessários que serão enviados para a exclusão de uma ONT
 $dados = [
     'key' => '2811c1e54a29f99941ac601d8dd169',  // Chave API, visualize essa informação em configolt.php na aba Configurações
-    'action' => 'activation',                   // Ação a ser executada para ativação de ONT
+    'action' => 'exclusion',                    // Ação a ser executada para exclusão de ONT
     'olt' => '1',                               // ID da OLT
-    'model_id' => '10',                         // ID do modelo de código a ser utilizado. Os modelos estão em configolt.php na aba Configurações, na seção Autorização de ONT
-    'serial_number' => 'ALCLFC4D0E8F',          // Número de série da ONT
-    'slot' => '1',                              // Slot da OLT
-    'pon' => '4',                               // PON da OLT
+    'slot' => '1',                              // Slot da OLT onde a ONT está conectada
+    'pon' => '4',                               // PON da OLT onde a ONT está conectada
     'ont' => '2',                               // Identificador da ONT na OLT
-    'vlan' => '1328',                           // VLAN da ONT
-    'description' => 'Descrição da ONT'         // Descrição da ONT
 ];
 
 // Inicializa cURL
@@ -35,12 +31,12 @@ echo $response;
 
 /*
  * Exemplo de resposta:
- * {"success":"ONT activated successfully"}
+ * {"success":"ONT removed successfully"}
  *
  * Em caso de erro, a resposta será:
  * {"error":"Error message"}
  * 
- * No script PHP de exemplo, substitua 'key', 'olt', 'model_id', 'serial_number', 'slot', 'pon', 'ont', 'vlan' e 'description' pelos valores reais que você deseja enviar.
+ * No script PHP de exemplo, substitua 'key', 'olt', 'slot', 'pon' e 'ont' pelos valores reais que você deseja enviar.
  * Na variável $url, substitua 'http://domain.com/webservice/olt.php' pelo endereço do arquivo olt.php em seu servidor.
  */
 
